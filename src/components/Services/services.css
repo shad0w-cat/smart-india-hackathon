@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@600&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.service_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ad9ae4 , #f3e7ea);
+
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+    padding-top: 80px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(176, 172, 172);
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    -webkit-user-select: none;
+}
+
+.service_btn{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 245, 245);
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.service_btn:hover{
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+    box-shadow: 2px 2px 1px rgb(176, 172, 172);
+}

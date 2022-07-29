@@ -14,7 +14,7 @@
     background-image: linear-gradient(to right, #dbd5ed , #f3e7ea);
 }
 
-button{
+.homepage_btn{
     padding: 25px;
     margin-left: 20px;
     border: none;
@@ -25,7 +25,7 @@ button{
     font-size: 20px;
 }
 
-button:hover{
+.homepage_btn:hover{
     background-color: rgb(230, 230, 230);
     cursor: pointer;
     box-shadow: 3px 3px 2px rgb(176, 172, 172);
