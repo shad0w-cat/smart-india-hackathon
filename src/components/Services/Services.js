@@ -6,7 +6,7 @@ function Services() {
     return (
         <div className='service_page'>
             <div className='page'>
-            <h1>Services</h1>
+            <h1 className='services'>Services</h1>
                 <button className='service_btn'>Survey Area</button>
                 <button className='service_btn'>Delivery</button>
             </div>
