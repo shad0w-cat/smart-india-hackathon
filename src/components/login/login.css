@@ -1,0 +1,56 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ad9ae4, #f3e7ea);
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    padding-inline: 100px;
+    padding-block: 80px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(176, 172, 172);
+
+}
+
+form input {
+    font-family: "Montserrat";
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+span label {
+    padding-right: 50px;
+}
+
+span {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+button {
+    padding: 25px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 245, 245);
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px rgb(176, 172, 172);
+}

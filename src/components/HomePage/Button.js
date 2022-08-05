@@ -1,12 +1,13 @@
-import React from 'react'; 
+import React from 'react';
+import { Link } from 'react-router-dom';
 import "./button.css"
-function Button (){ 
+function Button() {
   return (
     <div className='container'>
-        <button className='homepage_btn'>Admin</button> 
-        <button className='homepage_btn'>User</button> 
+      <Link to='/login'><button className='homepage_btn'>Admin</button> </Link>
+      <Link to='/services'><button className='homepage_btn'>User</button> </Link>
     </div>
-  ); 
+  );
 };
 
 export default Button;
